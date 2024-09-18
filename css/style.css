@@ -10,43 +10,61 @@ body{
     font-style: normal;
     text-transform: uppercase;
 }
-header{
+/* Estilos para el header */
+.header {
     width: 100%;
-    height: 7vh;
-    display: flex;
-    justify-content: space-between;
     background-color: black;
+    padding: 10px;
 }
-header div img{
-    margin: 10px;
+
+/* Logo */
+.header__logo {
     width: 170px;
-    justify-content: left;
-    
 }
 
-.navbar{
-
+/* Navbar */
+.navbar {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.navItem{
+/* Lista del menú */
+.navbar__menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap; /* Para que se ajuste en pantallas pequeñas */
+    justify-content: center;
+}
+
+/* Links del menú */
+.navItem {
     color: rgb(165, 9, 9);
     text-decoration: none;
     padding: 10px 20px;
     font-size: 1.3rem;
+}
 
+.navItem:hover {
+    background-color: rgb(107, 7, 7);
 }
-.navItem:hover{
-    background-color:  rgb(107, 7, 7);
 
+/* Responsive */
+@media (max-width: 992px) {
+    .navbar__menu {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .navbar__menu li {
+        width: 100%; 
+        text-align: center;
+        margin-bottom: 10px; 
+    }
 }
-ul{
-    list-style-type: none;
-    display: flex;
-    border: solid 3px;
-}
+
 .fondoPantalla{
     background-image: url(../img/TWAHTD-AUSNZ-ADMAT-DESKTOP-BANNER-v2-scaled.jpg);
     background-size: cover;
@@ -210,8 +228,6 @@ main{
     font-style: normal;
     text-align: left;
 }
-
-
 
 footer{
     margin: 10px;
