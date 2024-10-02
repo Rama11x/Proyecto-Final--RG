@@ -1,0 +1,15 @@
+.about__image{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.about__title{
+    background-color: $fondo_bio;
+    border-radius: 10px;
+}
+.about__bio{    
+    background-color:$fondo_bio;
+    color: $font_bio;
+    border-radius: 10px;
+}

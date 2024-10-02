@@ -1,0 +1,26 @@
+.contact{
+    &__form{
+        max-width: 600px;
+        padding: 2rem;
+        border-radius: 8px;
+        background-color: $album_title;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    &__title{
+        font-size: 5rem;
+        color: $title_contact;
+        border-radius: 7px;
+    }
+    &__form-input,
+    &__form-textarea{
+        margin-bottom: 1.5rem;
+        width: 100%; 
+        padding: 0.75rem; 
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    &__form-button{
+        padding: 0.75rem 2rem;
+        font-size: 1rem;
+    }
+    }

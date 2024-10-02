@@ -1,0 +1,15 @@
+footer{
+    background-color: $fondo ;
+    color:$item_nav;
+    padding: 15px;
+    &__link{
+        color:$item_nav;
+        text-decoration: none;
+        &:hover{
+            color:blue;
+        }
+    }
+    &__list-item{
+        padding: 10px 0;
+    }
+}
