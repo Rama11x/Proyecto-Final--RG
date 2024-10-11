@@ -118,6 +118,7 @@ main .home__image:hover {
   background-color: #EEEBDD;
   color: #950101;
   border-radius: 10px;
+  padding: 10px;
 }
 
 .contact__form {

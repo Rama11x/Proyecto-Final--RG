@@ -1,4 +1,4 @@
-
+$mobile: true;
 main{
     display: flex;
     text-align: center;
@@ -22,6 +22,5 @@ main{
                 transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
             }
         }
-        
     }
 }
